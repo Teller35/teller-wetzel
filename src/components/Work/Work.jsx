@@ -2,9 +2,10 @@ import React from "react";
 
 function Work() {
   return (
-    <div>
-        
-    </div>
+    <section>
+      <h1>Portfolio</h1>
+      
+    </section>
   );
 }
 
