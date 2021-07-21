@@ -1,9 +1,14 @@
 import React from "react";
+import Nav from "../Nav/Nav";
+import About from "../About";
 
 function App() {
   return (
     <section>
-      HELLO
+      <Nav />
+      <main>
+      <About />
+      </main>
     </section>
   );
 }
