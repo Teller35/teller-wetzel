@@ -10,7 +10,7 @@ function Nav(props) {
       </h1>
       <nav className="Right">
         <ul className="flex-row">
-          <li className="Items Pointer">
+          <li className="Items">
             <span>
               <a href="/">About Me</a>
             </span>
@@ -18,10 +18,10 @@ function Nav(props) {
           <li className={`Items Pointer ${contactSelected && "Active"}`}>
             <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
-          <li className="Items Pointer">
+          <li className="Items">
             <span>Portfolio</span>
           </li>
-          <li className="Items Pointer">
+          <li className="Items">
             <span>
               <a
                 href="https://drive.google.com/file/d/1sLOzMYVGHmOkXx02M3dSgDK-iptViXs3/view?usp=sharing"

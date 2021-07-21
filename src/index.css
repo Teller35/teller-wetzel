@@ -6,7 +6,7 @@ main {
 
 :root {
   --primary: #4ca3dd;
-  --secondary: #79ec0ed0;
+  --secondary: #a2e761d0;
   --tertiary: #15a787;
   --light: #fafafa;
   --dark: #000000;
@@ -42,8 +42,13 @@ a {
     font-weight: bold;
 }
 
-a:hover {
-    text-decoration: underline;
+a:hover, nav li:hover {
+  opacity: .5;  
+}
+
+nav li {
+  cursor: pointer;
+  color: var(--dark);
 }
 
 header {
@@ -101,9 +106,6 @@ textarea {
     flex-wrap: wrap;
 }
 
-.Pointer {
-  cursor: pointer;
-}
 
 .My-1 {
     padding-right: var(--spacing-one);
