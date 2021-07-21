@@ -58,6 +58,32 @@ img {
   max-width: 100%;
 }
 
+form {
+  width: 50%;
+  color: var(--tertiary);
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0,0,0,.5);
+}
+
+textarea {
+  width: 600px;
+  height: 100px;
+  border: 3px solid var(--light);
+  padding: 5px;
+}
+
 .First {
   color: var(--primary);
 }
@@ -73,6 +99,10 @@ img {
 .flex-row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.Pointer {
+  cursor: pointer;
 }
 
 .My-1 {
@@ -93,4 +123,20 @@ img {
 .CoverImg {
   margin-left: 420px;
   height: 340px;
+}
+
+.Contact-button {
+  background: var(--primary);
+  border: 0;
+  border-radius: 8px;
+  color: var(--secondary);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.Contact-button:hover {
+  opacity: .8;
 }
