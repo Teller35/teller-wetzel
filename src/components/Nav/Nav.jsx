@@ -2,6 +2,7 @@ import React from "react";
 
 function Nav(props) {
   const { contactSelected, setContactSelected } = props;
+  const { portfolioSelected, setPortfolioSelected } = props;
 
   return (
     <header className="flex-row My-1">
@@ -18,8 +19,8 @@ function Nav(props) {
           <li className={`Items Pointer ${contactSelected && "Active"}`}>
             <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
-          <li className="Items">
-            <span>Portfolio</span>
+          <li className={`Items Pointer ${portfolioSelected && "Active"}`}>
+            <span onClick={() => setPortfolioSelected(true)}>Portfolio</span>
           </li>
           <li className="Items">
             <span>
