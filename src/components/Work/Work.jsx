@@ -5,7 +5,7 @@ function Work() {
     {
       name: "Med Planner",
       description:
-        "An app that help patients schedule appointments with doctors and help keep track of them.",
+        "An app that help patients schedule appointments with doctors and help keep track of them that a team and I built.",
       url: "https://med-planner.herokuapp.com/",
       github: "https://github.com/Teller35/med-planner",
       image: "med-planner.png",
