@@ -4,6 +4,7 @@ import About from "../About";
 import ContactForm from "../Contact";
 import Work from "../Work";
 import Resume from "../Resume"
+import Footer from "../Footer";
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -28,7 +29,7 @@ function App() {
         resumeSelected ? (<Resume />) :
         (<About />)}
       </main>
-      
+      <Footer />
     </section>
   );
 }

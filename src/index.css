@@ -94,6 +94,11 @@ strong {
   font-size: 18px;
 }
 
+.Footer {
+  justify-content: center;
+  padding: var(--spacing-one);
+}
+
 .First {
   color: var(--primary);
 }
