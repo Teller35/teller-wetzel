@@ -3,10 +3,12 @@ import Nav from "../Nav";
 import About from "../About";
 import ContactForm from "../Contact";
 import Work from "../Work";
+import Resume from "../Resume"
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
   const [portfolioSelected, setPortfolioSelected] = useState(false);
+  const [resumeSelected, setResumeSelected] = useState(false);
 
   
 
@@ -17,12 +19,16 @@ function App() {
         setContactSelected={setContactSelected}
         portfolioSelected={portfolioSelected}
         setPortfolioSelected={setPortfolioSelected}
+        resumeSelected={resumeSelected}
+        setResumeSelected={setResumeSelected}
       />
       <main>
         {contactSelected ? (<ContactForm />) :
         portfolioSelected ? (<Work />) :
+        resumeSelected ? (<Resume />) :
         (<About />)}
       </main>
+      
     </section>
   );
 }
