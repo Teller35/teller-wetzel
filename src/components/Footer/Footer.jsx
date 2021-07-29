@@ -5,11 +5,11 @@ import { SiTwitter } from "react-icons/si";
 
 function Footer() {
   return (
-    <footer>
-      <div className="Footer">
-        <a className="Links" href=""><SiGithub size={40}/></a>
-        <a className="Links" href=""><SiLinkedin size={40}/></a>
-        <a className="Links" href=""><SiTwitter size={40}/></a>
+    <footer className="Items">
+      <div className="Center">
+        <a className="Links Items" href="https://github.com/Teller35" target="_blank"><SiGithub size={20}/></a>
+        <a className="Links Items" href="https://www.linkedin.com/in/tellerwetzel/" target="_blank"><SiLinkedin size={20}/></a>
+        <a className="Links Items" href="https://twitter.com/TellerWetzel" target="_blank"><SiTwitter size={20}/></a>
       </div>
     </footer>
   );

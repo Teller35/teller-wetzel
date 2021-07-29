@@ -24,9 +24,9 @@ function App() {
         setResumeSelected={setResumeSelected}
       />
       <main>
-        {contactSelected ? (<ContactForm />) :
+        {resumeSelected ? (<Resume />) :
         portfolioSelected ? (<Work />) :
-        resumeSelected ? (<Resume />) :
+        contactSelected ? (<ContactForm />) :
         (<About />)}
       </main>
       <Footer />

@@ -94,10 +94,6 @@ strong {
   font-size: 18px;
 }
 
-.Footer {
-  justify-content: center;
-  padding: var(--spacing-one);
-}
 
 .First {
   color: var(--primary);
@@ -126,14 +122,19 @@ strong {
   margin: 15px 0;
 }
 
+.Center {
+  padding-left: 650px;
+
+}
+
 .Items {
   margin-left: var(--spacing-two);
   margin-right: var(--spacing-two);
 }
 
 .CoverImg {
-  margin-left: 420px;
-  height: 340px;
+  margin-left: 450px;
+  height: 310px;
 }
 
 .Contact-button {
