@@ -94,6 +94,9 @@ strong {
   font-size: 18px;
 }
 
+.Active {
+  color: var(--secondary);
+}
 
 .First {
   color: var(--primary);

@@ -3,7 +3,7 @@
   [![License Badge](https://img.shields.io/badge/license-ISC-blue.svg)](#license)
 
   ## Description:
-  #### *This is my profile using react.*
+  #### *This is my profile using REACT.*
   *[View Project on GitHub](https://github.com/Teller35/teller-wetzel)*
 
   ## Table of Contents:

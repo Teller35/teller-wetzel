@@ -18,13 +18,25 @@ function Nav(props) {
             </span>
           </li>
           <li className={`Items Pointer ${contactSelected && "Active"}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
+            <span onClick={() => {
+              setContactSelected(true);
+              setResumeSelected(false);
+              setPortfolioSelected(false);
+            }}>Contact</span>
           </li>
           <li className={`Items Pointer ${portfolioSelected && "Active"}`}>
-            <span onClick={() => setPortfolioSelected(true)}>Portfolio</span>
+            <span onClick={() => {
+              setPortfolioSelected(true);
+              setContactSelected(false);
+              setResumeSelected(false);
+              }}>Portfolio</span>
           </li>
           <li className={`Items Pointer ${resumeSelected && "Active"}`}>
-            <span onClick={() => setResumeSelected(true)}>Resume</span>
+            <span onClick={() => {
+              setResumeSelected(true);
+              setContactSelected(false);
+              setPortfolioSelected(false);
+              }}>Resume</span>
           </li>
         </ul>
       </nav>
