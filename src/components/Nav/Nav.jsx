@@ -10,13 +10,13 @@ function Nav(props) {
       <div className="container-fluid justify-content-center">
         <div className="row align-items-center">
       <h1 className="col-sm-6">
-        <a href="/">Teller Wetzel</a>
+        <a href="https://teller35.github.io/teller-wetzel/">Teller Wetzel</a>
       </h1>
       <nav className="col-sm">
         <ul className="row align-items-center">
           <li className="col-md-auto p-1">
             <span>
-              <a href="/">About Me</a>
+              <a href="https://teller35.github.io/teller-wetzel/">About Me</a>
             </span>
           </li>
           <li className={`col-md-auto Pointer ${contactSelected && "Active"}`}>
