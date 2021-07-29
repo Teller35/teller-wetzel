@@ -27,7 +27,8 @@ function App() {
         {resumeSelected ? (<Resume />) :
         portfolioSelected ? (<Work />) :
         contactSelected ? (<ContactForm />) :
-        (<About />)}
+        (<About />)
+        }
       </main>
       <Footer />
     </section>

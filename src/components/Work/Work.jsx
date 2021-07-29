@@ -23,14 +23,14 @@ function Work() {
       description:
         "A app to keep track on the newest news in the world of tech around the world.",
       url: "https://world-wide-tech-blog.herokuapp.com/",
-      github: "https://world-wide-tech-blog.herokuapp.com/",
+      github: "https://github.com/Teller35/world-wide-tech-blog",
       image: "wwt.png",
     },
     {
       name: "Budget Tracker",
       description: "An app to keep track of your budget online and offline.",
       url: "https://budget-made-easy.herokuapp.com/",
-      github: "https://budget-made-easy.herokuapp.com/",
+      github: "https://github.com/Teller35/budget-made-easy",
       image: "budget.png",
     },
     {
@@ -49,33 +49,20 @@ function Work() {
     },
   ]);
   return (
-    <section className="flex-row">
+    <section className="d-flex justify-content-evenly flex-wrap">
       {projects.map((project) => (
-        <div className="Card">
-          <div className="ImgContain">
-            <img
+        <div className="card text-center">
+          <img
               src={require(`../../assets/large/${project.image}`).default}
               alt={project.name}
-              className="ProjectImg"
-            />
-          </div>
-          <div className="Project">
-            <ul>
-              <li className="ProjectLi">
-                <strong>Name:</strong> {project.name}
-              </li>
-              <li className="ProjectLi">
-              <strong>Description:</strong> {project.description}
-              </li>
-              <li className="ProjectLi">
-                <a className="Links" href={project.url} target="_blank">Live Link</a>
-                ||
-                <a className="Links" href={project.github} target="_blank">GitHub Link</a>
-              </li>
-              <li className="ProjectLi">
-              </li>
-            </ul>
-          </div>
+              className="card-img-top Image"
+              />
+              <div className="card-body">
+                <h5 className="card-title fs-3 fw-bolder">{project.name}</h5>
+                <p className="card-text fw-normal fst-italic">{project.description}</p>
+                <a href={project.url} target="_blank" className="Links p-2 position-absolute bottom-0 start-0">Live</a>
+                <a href={project.github} target="_blank" className="Links p-2 position-absolute bottom-0 end-0">GitHub</a>
+              </div>
         </div>
       ))}
     </section>

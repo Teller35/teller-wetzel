@@ -6,32 +6,34 @@ function Nav(props) {
   const { resumeSelected, setResumeSelected } = props;
 
   return (
-    <header className="flex-row My-1">
-      <h1>
+    <header>
+      <div className="container-fluid justify-content-center">
+        <div className="row align-items-center">
+      <h1 className="col-sm-6">
         <a href="/">Teller Wetzel</a>
       </h1>
-      <nav className="Right">
-        <ul className="flex-row">
-          <li className="Items">
+      <nav className="col-sm">
+        <ul className="row align-items-center">
+          <li className="col-md-auto p-1">
             <span>
               <a href="/">About Me</a>
             </span>
           </li>
-          <li className={`Items Pointer ${contactSelected && "Active"}`}>
+          <li className={`col-md-auto Pointer ${contactSelected && "Active"}`}>
             <span onClick={() => {
               setContactSelected(true);
               setResumeSelected(false);
               setPortfolioSelected(false);
             }}>Contact</span>
           </li>
-          <li className={`Items Pointer ${portfolioSelected && "Active"}`}>
+          <li className={`col-md-auto Pointer ${portfolioSelected && "Active"}`}>
             <span onClick={() => {
               setPortfolioSelected(true);
               setContactSelected(false);
               setResumeSelected(false);
               }}>Portfolio</span>
           </li>
-          <li className={`Items Pointer ${resumeSelected && "Active"}`}>
+          <li className={`col-md-auto Pointer ${resumeSelected && "Active"}`}>
             <span onClick={() => {
               setResumeSelected(true);
               setContactSelected(false);
@@ -40,6 +42,8 @@ function Nav(props) {
           </li>
         </ul>
       </nav>
+        </div>
+      </div>
     </header>
   );
 }

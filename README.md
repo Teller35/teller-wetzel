@@ -3,7 +3,7 @@
   [![License Badge](https://img.shields.io/badge/license-ISC-blue.svg)](#license)
 
   ## Description:
-  #### *This is my profile using REACT.*
+  #### *This is my profile using REACT, Bootstrap, and my own styling.*
   *[View Project on GitHub](https://github.com/Teller35/teller-wetzel)*
 
   ## Table of Contents:
@@ -23,7 +23,7 @@
   #### *Have a peek around and contact me with questions*
 
   ## Credits
-  #### *NONE*
+  #### *Bootstrap*
 
   ## License
   #### *This project is covered under the isc license!*
