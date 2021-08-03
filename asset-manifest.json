@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/teller-wetzel/static/css/main.1692d01c.chunk.css",
-    "main.js": "/teller-wetzel/static/js/main.7d60f71e.chunk.js",
-    "main.js.map": "/teller-wetzel/static/js/main.7d60f71e.chunk.js.map",
+    "main.js": "/teller-wetzel/static/js/main.d1c23340.chunk.js",
+    "main.js.map": "/teller-wetzel/static/js/main.d1c23340.chunk.js.map",
     "runtime-main.js": "/teller-wetzel/static/js/runtime-main.db8aad92.js",
     "runtime-main.js.map": "/teller-wetzel/static/js/runtime-main.db8aad92.js.map",
-    "static/js/2.00539077.chunk.js": "/teller-wetzel/static/js/2.00539077.chunk.js",
-    "static/js/2.00539077.chunk.js.map": "/teller-wetzel/static/js/2.00539077.chunk.js.map",
+    "static/js/2.14f2d614.chunk.js": "/teller-wetzel/static/js/2.14f2d614.chunk.js",
+    "static/js/2.14f2d614.chunk.js.map": "/teller-wetzel/static/js/2.14f2d614.chunk.js.map",
     "index.html": "/teller-wetzel/index.html",
     "static/css/main.1692d01c.chunk.css.map": "/teller-wetzel/static/css/main.1692d01c.chunk.css.map",
-    "static/js/2.00539077.chunk.js.LICENSE.txt": "/teller-wetzel/static/js/2.00539077.chunk.js.LICENSE.txt",
+    "static/js/2.14f2d614.chunk.js.LICENSE.txt": "/teller-wetzel/static/js/2.14f2d614.chunk.js.LICENSE.txt",
     "static/media/Me.5c6a2a63.jpg": "/teller-wetzel/static/media/Me.5c6a2a63.jpg",
     "static/media/budget.png": "/teller-wetzel/static/media/budget.edf8b64a.png",
     "static/media/med-planner.png": "/teller-wetzel/static/media/med-planner.47b5bc2b.png",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.db8aad92.js",
-    "static/js/2.00539077.chunk.js",
+    "static/js/2.14f2d614.chunk.js",
     "static/css/main.1692d01c.chunk.css",
-    "static/js/main.7d60f71e.chunk.js"
+    "static/js/main.d1c23340.chunk.js"
   ]
 }
