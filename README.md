@@ -4,7 +4,9 @@
 
   ## Description:
   #### *This is my profile using REACT, Bootstrap, and my own styling.*
-  *[View Project on GitHub](https://github.com/Teller35/teller-wetzel)*
+  * *[View Project on GitHub](https://github.com/Teller35/teller-wetzel)*
+  * *[View Profile](https://teller35.github.io/teller-wetzel/)*
+  
 
   ## Table of Contents:
   * [**Installation**](#installation)
