@@ -31,6 +31,7 @@ function Resume() {
           className="Links"
           href="https://drive.google.com/file/d/1sLOzMYVGHmOkXx02M3dSgDK-iptViXs3/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
         >
           <span> Here</span>
         </a>

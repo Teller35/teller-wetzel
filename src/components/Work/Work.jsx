@@ -5,7 +5,7 @@ function Work() {
     {
       name: "Med Planner",
       description:
-        "An app that help patients schedule appointments with doctors and help keep track of them that a team and I built.",
+        "An app that help patients schedule appointments with doctors and help keep track of them that a team and I built. Responsible for the handlebars, css, and javascript logic.",
       url: "https://med-planner.herokuapp.com/",
       github: "https://github.com/Teller35/med-planner",
       image: "med-planner.png",
@@ -13,7 +13,7 @@ function Work() {
     {
       name: "Tree of Knowledge",
       description:
-        "A book search app that a team and I build to look up books and save them for later.",
+        "A book search app that a team and I build to look up books and save them for later. Responsible for the css using foundation, and basic html.",
       url: "https://teller35.github.io/tree-of-knowledge/",
       github: "https://github.com/Teller35/tree-of-knowledge",
       image: "pile-of-books.jpg",
@@ -21,28 +21,28 @@ function Work() {
     {
       name: "World Wide Tech Blog",
       description:
-        "A app to keep track on the newest news in the world of tech around the world.",
+        "A app to keep track on the newest news in the world of tech around the world. Used handlebars, bootstrap, javascript and sql.",
       url: "https://world-wide-tech-blog.herokuapp.com/",
       github: "https://github.com/Teller35/world-wide-tech-blog",
       image: "wwt.png",
     },
     {
       name: "Budget Tracker",
-      description: "An app to keep track of your budget online and offline.",
+      description: "An app to keep track of your budget online and offline. Did the backend logic with javascript, and NoSql.",
       url: "https://budget-made-easy.herokuapp.com/",
       github: "https://github.com/Teller35/budget-made-easy",
       image: "budget.png",
     },
     {
       name: "Password Generator",
-      description: "A simple password generator.",
+      description: "A simple password generator. Built with javascript and html.",
       url: "https://teller35.github.io/password-generator/",
       github: "https://github.com/Teller35/password-generator",
       image: "password.png",
     },
     {
       name: "Notes Oh My",
-      description: "An app to take and keep track of notes",
+      description: "An app to take and keep track of notes. Did the backend logic with javascript.",
       url: "https://still-depths-65459.herokuapp.com/",
       github: "https://github.com/Teller35/notes-oh-my",
       image: "notes.png",
@@ -59,9 +59,9 @@ function Work() {
               />
               <div className="card-body">
                 <h5 className="card-title fs-3 fw-bolder">{project.name}</h5>
-                <p className="card-text fw-normal fst-italic">{project.description}</p>
-                <a href={project.url} target="_blank" className="Links p-2 position-absolute bottom-0 start-0">Live</a>
-                <a href={project.github} target="_blank" className="Links p-2 position-absolute bottom-0 end-0">GitHub</a>
+                <p className="card-text fw-bold fst-italic">{project.description}</p>
+                <a href={project.url} target="_blank" rel="noreferrer" className="p-2 position-absolute bottom-0 start-0">Live</a>
+                <a href={project.github} target="_blank" rel="noreferrer" className="p-2 position-absolute bottom-0 end-0">GitHub</a>
               </div>
         </div>
       ))}
