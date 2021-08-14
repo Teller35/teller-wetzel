@@ -7,7 +7,7 @@ function ContactForm() {
     <section className="container">
       <h1 className="Third">Contact Me:</h1>
       <h3 className="First">
-        Please reach out would love to answer your questions <br/>
+        Please reach out. I would love to answer your questions <br/>
         or even get that project off the ground. Use any of the links <br/>
         below and shoot me a message.
       </h3>
