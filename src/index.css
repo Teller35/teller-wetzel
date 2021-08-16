@@ -144,3 +144,7 @@ textarea {
   text-align: left;
   color: var(--dark);
 }
+
+.color {
+  color: rgb(94, 9, 9);
+}
