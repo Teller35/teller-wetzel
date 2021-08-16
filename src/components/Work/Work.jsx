@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 function Work() {
   const [projects] = useState([
     {
@@ -9,6 +10,7 @@ function Work() {
       url: "https://med-planner.herokuapp.com/",
       github: "https://github.com/Teller35/med-planner",
       image: "med-planner.png",
+      tech: "HTML5, CSS3, JavaScript, Bootstrap, Handlebars, Sequelize, Express"
     },
     {
       name: "Tree of Knowledge",
@@ -17,6 +19,7 @@ function Work() {
       url: "https://teller35.github.io/tree-of-knowledge/",
       github: "https://github.com/Teller35/tree-of-knowledge",
       image: "pile-of-books.jpg",
+      tech: "HTML5, CSS3, JavaScript, Foundation"
     },
     {
       name: "World Wide Tech Blog",
@@ -25,6 +28,7 @@ function Work() {
       url: "https://world-wide-tech-blog.herokuapp.com/",
       github: "https://github.com/Teller35/world-wide-tech-blog",
       image: "wwt.png",
+      tech: "HTML5, CSS3, JavaScript, Sequelize, Handlebars, Express"
     },
     {
       name: "Budget Tracker",
@@ -32,6 +36,7 @@ function Work() {
       url: "https://budget-made-easy.herokuapp.com/",
       github: "https://github.com/Teller35/budget-made-easy",
       image: "budget.png",
+      tech: "HTML5, CSS3, JavaScript, Sequelize, Express"
     },
     {
       name: "Password Generator",
@@ -39,6 +44,7 @@ function Work() {
       url: "https://teller35.github.io/password-generator/",
       github: "https://github.com/Teller35/password-generator",
       image: "password.png",
+      tech: "HTML5, CSS3, JavaScript"
     },
     {
       name: "Notes Oh My",
@@ -46,6 +52,7 @@ function Work() {
       url: "https://still-depths-65459.herokuapp.com/",
       github: "https://github.com/Teller35/notes-oh-my",
       image: "notes.png",
+      tech: "HTML5, CSS3, JavaScript, Sequelize"
     },
   ]);
   return (
@@ -60,6 +67,7 @@ function Work() {
               <div className="card-body">
                 <h5 className="card-title fs-3 fw-bolder">{project.name}</h5>
                 <p className="card-text fw-bold fst-italic">{project.description}</p>
+                <p className="card-text fw-bold fst-italic">Technologies used: {project.tech}</p>
                 <a href={project.url} target="_blank" rel="noreferrer" className="p-2 position-absolute bottom-0 start-0">Live</a>
                 <a href={project.github} target="_blank" rel="noreferrer" className="p-2 position-absolute bottom-0 end-0">GitHub</a>
               </div>
