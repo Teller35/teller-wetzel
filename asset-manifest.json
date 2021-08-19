@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/teller-wetzel/static/css/main.96388746.chunk.css",
-    "main.js": "/teller-wetzel/static/js/main.442b7294.chunk.js",
-    "main.js.map": "/teller-wetzel/static/js/main.442b7294.chunk.js.map",
+    "main.js": "/teller-wetzel/static/js/main.fdb1c586.chunk.js",
+    "main.js.map": "/teller-wetzel/static/js/main.fdb1c586.chunk.js.map",
     "runtime-main.js": "/teller-wetzel/static/js/runtime-main.db8aad92.js",
     "runtime-main.js.map": "/teller-wetzel/static/js/runtime-main.db8aad92.js.map",
     "static/js/2.ea9fe237.chunk.js": "/teller-wetzel/static/js/2.ea9fe237.chunk.js",
@@ -12,9 +12,9 @@
     "static/js/2.ea9fe237.chunk.js.LICENSE.txt": "/teller-wetzel/static/js/2.ea9fe237.chunk.js.LICENSE.txt",
     "static/media/Me.5c6a2a63.jpg": "/teller-wetzel/static/media/Me.5c6a2a63.jpg",
     "static/media/budget.png": "/teller-wetzel/static/media/budget.edf8b64a.png",
+    "static/media/events.png": "/teller-wetzel/static/media/events.7a396944.png",
     "static/media/med-planner.png": "/teller-wetzel/static/media/med-planner.47b5bc2b.png",
     "static/media/notes.png": "/teller-wetzel/static/media/notes.e9c7dd68.png",
-    "static/media/password.png": "/teller-wetzel/static/media/password.21da8e6f.png",
     "static/media/pile-of-books.jpg": "/teller-wetzel/static/media/pile-of-books.303b9f00.jpg",
     "static/media/wwt.png": "/teller-wetzel/static/media/wwt.88c1cd1a.png"
   },
@@ -22,6 +22,6 @@
     "static/js/runtime-main.db8aad92.js",
     "static/js/2.ea9fe237.chunk.js",
     "static/css/main.96388746.chunk.css",
-    "static/js/main.442b7294.chunk.js"
+    "static/js/main.fdb1c586.chunk.js"
   ]
 }
