@@ -4,6 +4,14 @@ import React, { useState } from "react";
 function Work() {
   const [projects] = useState([
     {
+      name: "E.V.E.N.T.S",
+      description: "An app to keep track, plan and join in on events planned by you or someone else. This was build using several different technologies and as a group. Each member of the team had their own duties.",
+      url: "https://e-v-e-n-t-s.herokuapp.com/",
+      github: "https://github.com/Teller35/project-events",
+      image: "events.png",
+      tech: "MERN SPA, Bootstrap, Mongoose, MongoDB, React, Waze, emailjs, Donorbox, and Stripe"
+    },
+    {
       name: "Med Planner",
       description:
         "An app that help patients schedule appointments with doctors and help keep track of them that a team and I built. Responsible for the handlebars, css, and javascript logic.",
@@ -37,14 +45,6 @@ function Work() {
       github: "https://github.com/Teller35/budget-made-easy",
       image: "budget.png",
       tech: "HTML, CSS, JavaScript, Sequelize, Express"
-    },
-    {
-      name: "Password Generator",
-      description: "A simple password generator. Built with javascript and html.",
-      url: "https://teller35.github.io/password-generator/",
-      github: "https://github.com/Teller35/password-generator",
-      image: "password.png",
-      tech: "HTML, CSS, JavaScript"
     },
     {
       name: "Notes Oh My",
