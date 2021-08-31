@@ -9,7 +9,7 @@ function ContactForm() {
       <h3 className="First">
         Please reach out. I would love to answer your questions <br/>
         or even help get that project off the ground. Use any of the links <br/>
-        below to get to know me. Feel free to email me at tellerwetzel@yahoo.com or use the link below.
+        below to get to know me. Feel free to email me at <a className="Links" href="mailto:tellerwetzel@yahoo.com">tellerwetzel@yahoo.com</a>.
       </h3>
     </section>
   );
