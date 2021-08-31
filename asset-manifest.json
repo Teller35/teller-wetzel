@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/teller-wetzel/static/css/main.3e622df1.chunk.css",
-    "main.js": "/teller-wetzel/static/js/main.03e76fe6.chunk.js",
-    "main.js.map": "/teller-wetzel/static/js/main.03e76fe6.chunk.js.map",
+    "main.js": "/teller-wetzel/static/js/main.61ebbd28.chunk.js",
+    "main.js.map": "/teller-wetzel/static/js/main.61ebbd28.chunk.js.map",
     "runtime-main.js": "/teller-wetzel/static/js/runtime-main.db8aad92.js",
     "runtime-main.js.map": "/teller-wetzel/static/js/runtime-main.db8aad92.js.map",
     "static/js/2.ea9fe237.chunk.js": "/teller-wetzel/static/js/2.ea9fe237.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.db8aad92.js",
     "static/js/2.ea9fe237.chunk.js",
     "static/css/main.3e622df1.chunk.css",
-    "static/js/main.03e76fe6.chunk.js"
+    "static/js/main.61ebbd28.chunk.js"
   ]
 }
